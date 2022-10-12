@@ -9,7 +9,7 @@ pragma solidity ^0.4.24;
 // Name          : astaroth
 // Total supply  : 49000000000000000000000000
 // Decimals      : 18
-// Owner Account : 0x33643422d4B5a3510B2D8038Cc0a9df3E5C92E65
+// Owner Account : 0xb0bb8CE1709b41c22dE8E648a41a4fD4F9baf7C1
 //
 // Enjoy.
 //
@@ -90,8 +90,8 @@ contract ASTRToken is ERC20Interface, SafeMath {
         name = "astaroth";
         decimals = 18;
         _totalSupply = 49000000000000000000000000;
-        balances[0x33643422d4B5a3510B2D8038Cc0a9df3E5C92E65] = _totalSupply;
-        emit Transfer(address(0), 0x33643422d4B5a3510B2D8038Cc0a9df3E5C92E65, _totalSupply);
+        balances[0xb0bb8CE1709b41c22dE8E648a41a4fD4F9baf7C1] = _totalSupply;
+        emit Transfer(address(0), 0xb0bb8CE1709b41c22dE8E648a41a4fD4F9baf7C1, _totalSupply);
     }
 
 
