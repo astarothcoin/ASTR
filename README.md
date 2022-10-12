@@ -46,7 +46,7 @@ contract SafeMath {
 
 /**
 ERC Token Standard #20 Interface
-https://github.com/astarothcoin/ASTR.git/README.md
+https://github.com/astarothcoin/ASTR.git
 */
 contract ERC20Interface {
     function totalSupply() public constant returns (uint);
@@ -128,7 +128,7 @@ contract ASTRToken is ERC20Interface, SafeMath {
     // Token owner can approve for spender to transferFrom(...) tokens
     // from the token owner's account
     //
-    // https://github.com/astarothcoin/ASTR.git/README.md
+    // https://github.com/astarothcoin/ASTR.git
     // recommends that there are no checks for the approval double-spend attack
     // as this should be implemented in user interfaces 
     // ------------------------------------------------------------------------
